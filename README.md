@@ -43,7 +43,14 @@ npm run build
 npm run dev
 ```
 
-### 3. Setup & Run Client
+### 3. Debug with MCP Inspector (Optional)
+
+```bash
+cd server
+npx @modelcontextprotocol/inspector src/index.ts
+```
+
+### 4. Setup & Run Client
 
 ```bash
 cd ../client
