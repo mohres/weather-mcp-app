@@ -47,8 +47,14 @@ npm run dev
 
 ```bash
 cd server
-npx @modelcontextprotocol/inspector src/index.ts
+npm run build
+npx @modelcontextprotocol/inspector node dist/index.js
 ```
+
+**Inspector Configuration:**
+- **Transport Type**: STDIO
+- **Command**: `node`
+- **Arguments**: `dist/index.js`
 
 ### 4. Setup & Run Client
 
